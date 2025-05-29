@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristianismo Forever - Uma Irmandade Atemporal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=MedievalSharp&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'MedievalSharp', cursive; /* Fonte medieval principal */
+            background-color: #1a1a1a; /* Um cinza bem escuro, quase preto */
+            color: #e0e0e0; /* Um cinza claro para texto */
+        }
+        /* Para elementos que precisam de uma leitura um pouco mais clara, podemos usar Cinzel ou manter Inter para parágrafos mais longos se MedievalSharp for muito estilizado */
+        .font-cinzel {
+            font-family: 'Cinzel', serif;
+        }
+        .text-readable { /* Classe opcional para parágrafos mais densos, se necessário */
+            font-family: 'Cinzel', serif; 
+        }
+        .parchment {
+            background-color: #f5e8c8; /* Cor de pergaminho */
+            color: #4a3b31; /* Marrom escuro para texto no pergaminho */
+            border: 2px solid #8a6d3b; /* Borda dourada/amarronzada */
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+            font-family: 'Cinzel', serif; /* Poema em Cinzel para melhor legibilidade */
+        }
+        .header-medieval {
+            background-color: #2a1f1d; /* Um tom de marrom escuro para o header */
+            border-bottom: 4px solid #c0a080; /* Um marrom mais claro para borda */
+        }
+        .card-medieval {
+            background-color: #2c2c2c; /* Cinza um pouco mais claro para cards */
+            border: 1px solid #444444;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            padding-top: 20px; /* Adicionado padding para compensar ausência da imagem */
+            padding-bottom: 20px;
+        }
+        .card-medieval:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+        }
+        .btn-medieval {
+            background-color: #8a6d3b; /* Dourado/amarronzado */
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: 'Cinzel', serif; /* Botões com Cinzel */
+            transition: background-color 0.3s ease;
+        }
+        .btn-medieval:hover {
+            background-color: #a88d5b; /* Dourado mais claro no hover */
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #2c2c2c;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #8a6d3b;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #a88d5b;
+        }
+        .seal {
+            width: 60px;
+            height: 60px;
+            background-color: #c0392b; /* Vermelho escuro para o selo */
+            border-radius: 50%;
+            position: absolute;
+            bottom: -30px;
+            right: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Cinzel', serif;
+            font-size: 24px;
+            color: #f1c40f; /* Dourado para a inicial no selo */
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+            border: 2px solid #a52a2a;
+        }
+        .logo-img {
+            border: 3px solid #c0a080; /* Borda temática para o logo */
+            border-radius: 8px; /* Cantos arredondados para o logo */
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <header class="header-medieval py-12 sm:py-16 text-center shadow-lg">
+        <div class="container mx-auto flex flex-col items-center">
+            <img src="https://placehold.co/180x180/4A3B31/F5E8C8?text=CF&font=medievalsharp" alt="Logo Cristianismo Forever" class="logo-img mb-6">
+            
+            <div class="bg-black bg-opacity-60 p-6 rounded-lg inline-block">
+                <h1 class="font-cinzel text-4xl sm:text-6xl font-bold text-yellow-300 tracking-wider">Cristianismo Forever</h1>
+                <p class="font-cinzel text-xl sm:text-2xl text-gray-200 mt-2">Uma Irmandade Atemporal da Fé e Amizade</p>
+                <p class="text-readable text-sm text-gray-300 mt-1">Forjada nos corredores da Igreja O Brasil Para Cristo</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 sm:py-12">
+
+        <section class="mb-12 text-center">
+            <h2 class="font-cinzel text-3xl font-semibold mb-4 text-amber-400">Nossa Confraria</h2>
+            <p class="text-readable text-lg leading-relaxed max-w-3xl mx-auto text-gray-300">
+                Bem-vindos ao domínio de "Cristianismo Forever"! Somos mais que um grupo de WhatsApp; somos uma irmandade de nobres cavaleiros, unidos pelos laços da fé cristã e pela amizade sincera, cultivada sob o teto da venerável Igreja O Brasil Para Cristo. Nossas conversas são épicas, nossas risadas, lendárias, e nossa união, inabalável (quase sempre...).
+            </p>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="font-cinzel text-3xl font-semibold mb-8 text-center text-amber-400">Os Guardiões da Chama</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+                <div class="card-medieval rounded-lg p-6 shadow-lg text-center">
+                    <h3 class="font-cinzel text-2xl font-bold text-amber-300 mb-2">Sir Christian Lima</h3>
+                    <p class="text-sm text-gray-400 italic mb-2">O Estrategista Leal</p>
+                    <p class="text-readable mt-2 text-gray-300">Com visão aguçada e fé inabalável, guia-nos com sabedoria e planos bem traçados.</p>
+                </div>
+
+                <div class="card-medieval rounded-lg p-6 shadow-lg text-center">
+                    <h3 class="font-cinzel text-2xl font-bold text-amber-300 mb-2">Sir Vitinho</h3>
+                    <p class="text-sm text-gray-400 italic mb-2">O Bardo Eloquente</p>
+                    <p class="text-readable mt-2 text-gray-300">Suas palavras são como melodia, trazendo alegria e inspiração aos nossos encontros.</p>
+                </div>
+
+                <div class="card-medieval rounded-lg p-6 shadow-lg text-center">
+                    <h3 class="font-cinzel text-2xl font-bold text-amber-300 mb-2">Sir Bruno</h3>
+                    <p class="text-sm text-gray-400 italic mb-2">O Guardião Silencioso</p>
+                    <p class="text-readable mt-2 text-gray-300">Observador e ponderado, sua força reside na lealdade e no coração nobre.</p>
+                </div>
+
+                <div class="card-medieval rounded-lg p-6 shadow-lg text-center">
+                    <h3 class="font-cinzel text-2xl font-bold text-amber-300 mb-2">Sir Muirilo</h3>
+                    <p class="text-sm text-gray-400 italic mb-2">O Sábio Conselheiro</p>
+                    <p class="text-readable mt-2 text-gray-300">Fonte de sabedoria e discernimento, suas palavras são faróis em tempos de névoa.</p>
+                </div>
+
+                <div class="card-medieval rounded-lg p-6 shadow-lg text-center">
+                    <h3 class="font-cinzel text-2xl font-bold text-amber-300 mb-2">Sir Henrique "Sid"</h3>
+                    <p class="text-sm text-gray-400 italic mb-2">O Explorador Audaz</p>
+                    <p class="text-readable mt-2 text-gray-300">Com espírito aventureiro e fé destemida, desbrava novos caminhos para a irmandade.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12 p-6 rounded-lg shadow-xl" style="background-color: #251f1c;">
+            <div class="text-center mb-6">
+                 <h2 class="font-cinzel text-3xl font-semibold text-red-400">A Partida de Sir Natã, o Conquistado</h2>
+            </div>
+            <p class="text-readable text-lg leading-relaxed max-w-3xl mx-auto text-gray-300 text-center">
+                Oh, tempos de mudança e despedidas! Uma das sagradas e imutáveis regras de nossa nobre irmandade "Cristianismo Forever" é clara como as águas de um rio cristalino: ao tomar os sagrados (e temidos) laços do matrimônio, um cavaleiro deve depor suas armas de solteiro e seguir uma nova, e dizem, florida senda.
+            </p>
+            <p class="text-readable text-lg leading-relaxed max-w-3xl mx-auto text-gray-300 mt-4 text-center">
+                Nosso irmão, Sir Natã, com bravura inquestionável (e um toque do que alguns chamariam de "traição" à vida de eterna camaradagem solteira!), escolheu este caminho. Ele pendura sua armadura de festas e justas noturnas para vestir o manto do matrimônio. Que os céus o guiem!
+            </p>
+        </section>
+
+        <section class="relative">
+            <h2 class="font-cinzel text-3xl font-semibold mb-6 text-center text-amber-400">Pergaminho de Despedida a Sir Natã, o Trânsfuga Nupcial</h2>
+            <div class="parchment p-6 sm:p-10 rounded-lg max-w-4xl mx-auto relative pb-16">
+                <h3 class="font-cinzel text-2xl font-bold mb-6 text-center text-red-700">Ode a Natã, o Cavaleiro que Trocou a Espada pelo Anel</h3>
+                
+                <p class="mb-4 text-lg leading-loose">
+                    Ó, Natã, outrora bastião da folia,<br>
+                    Que conosco partilhava hidromel e alegria.<br>
+                    Hoje, trocas o elmo por véu e grinalda,<br>
+                    E a irmandade por uma doce jornada.
+                </p>
+                <p class="mb-4 text-lg leading-loose">
+                    Qual Judas, que em tempos de outrora traiu,<br>
+                    (A solteirice, claro!) Tu nos deixas, por um amor que surgiu.<br>
+                    Mas não com moedas, e sim com um "sim" no altar,<br>
+                    Abandonas as noites de glória e luar.
+                </p>
+                <p class="mb-4 text-lg leading-loose">
+                    As tavernas (de debates e risos) sentirão tua falta, nobre irmão,<br>
+                    Nossas caçadas (de memes) perdem um bravo campeão.<br>
+                    O "Cristianismo Forever" lamenta tua partida,<br>
+                    Mas entende a escolha desta nova lida.
+                </p>
+                <p class="mb-4 text-lg leading-loose">
+                    Que tua fortaleza seja agora teu lar,<br>
+                    E tua amada, a rainha a reinar.<br>
+                    Embora "traidor" da solteirice tenhas sido,<br>
+                    Em nossos corações, jamais serás esquecido.
+                </p>
+                <p class="text-lg leading-loose">
+                    Vai, Natã, sê feliz em teu novo porvir,<br>
+                    Mas lembra dos amigos que deixaste a sorrir (e a resmungar!).<br>
+                    Que a bênção do Altíssimo te acompanhe sem par,<br>
+                    E que possas, um dia, à nossa mesa retornar... talvez para um suco de uva integral.
+                </p>
+
+                <p class="mt-8 text-right font-cinzel font-bold">
+                    Com fraterna (e levemente enciumada) saudação,<br>
+                    Os Irmãos do Cristianismo Forever.
+                </p>
+                <div class="seal" title="Selo da Irmandade">CF</div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-8 mt-12 text-center border-t-2 border-gray-700">
+        <p class="text-readable text-gray-400">&copy; <span id="currentYear"></span> Cristianismo Forever. Todos os direitos (e deveres fraternos) reservados.</p>
+        <p class="text-readable text-xs text-gray-500 mt-1">Forjado com Fé, Amizade e um Pouco de Código Divino.</p>
+    </footer>
+
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
